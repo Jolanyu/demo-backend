@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: "jdbc:mysql://localhost:3306/demo"
+    username: "root"
+    password: "YUQILINa123123"
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 0
+  jackson:
+    default-property-inclusion: NON_NULL
