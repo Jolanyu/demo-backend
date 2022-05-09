@@ -3,7 +3,7 @@
 
 ## 启动
  修改/src/main/resources/application.properties，修改以下内容：
- > spring:
+ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: "jdbc:mysql://数据库地址:端口/数据库名称"
